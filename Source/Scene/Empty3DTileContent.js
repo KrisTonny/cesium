@@ -123,6 +123,12 @@ define([
     /**
      * Part of the {@link Cesium3DTileContent} interface.
      */
+    Empty3DTileContent.prototype.applyStyleWithBatchTable = function(frameState, style, colorBlendMode) {
+    };
+
+    /**
+     * Part of the {@link Cesium3DTileContent} interface.
+     */
     Empty3DTileContent.prototype.update = function(tileset, frameState) {
     };
 
